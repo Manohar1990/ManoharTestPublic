@@ -1,0 +1,11 @@
+framework module TodayFW {
+  umbrella header "TodayFW.h"
+
+  export *
+  module * { export * }
+}
+
+module TodayFW.Swift {
+    header "TodayFW-Swift.h"
+    requires objc
+}
